@@ -1,0 +1,200 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: rgb(220,220,220, 0.2);
+  width: 100%;
+  
+}
+.jumbotron {
+  background-color: #FFF;
+}
+
+
+.navSpace {
+  width: 100%;
+  margin: auto;
+  padding-top: 2.5%;
+
+}
+
+ul {
+ position: relative;
+ right: -10%; 
+ color: #444;
+}
+
+li {
+  padding-top: 2%;
+}
+
+.turn-teal {
+  background: teal;
+  color: white;
+}
+
+
+h1 h2 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+  color: teal;
+}
+
+.p-touchup {
+  margin-top: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.make-space {
+  padding-top: 0.66%;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+
+}
+
+.nav-back {
+  background-color: #FFF;
+  z-index: 10;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 7%;
+  line-height: 7%; /* Vertically center the text there */
+  background-color: #f5f5f5;
+  font-size: 10px;
+}
+
+
+
+div.footer {
+  text-align: center;
+  background-color: #444;
+  padding-top: 20px;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top-style: solid;
+  border-top-width: 8px;
+  border-top-color: teal;
+  
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 8px;
+  color: #DDD;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.full-width {
+  width: 200%;
+  overflow-x: hidden;
+}
+
+.menu-bar{
+  background-color: #FFF;
+}
+
+.backup-link{
+  padding-left: 2%;
+  text-align: right;
+}
+
+.name-button {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+  left: -10%;
+}
+
+a:link {
+  text-decoration: none;
+  color: teal;
+}
+
+a:visited {
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover {
+  text-decoration: none;
+  color: teal;
+}
+
+a:active {
+  text-decoration: none;
+  color: teal;
+}
+
+li a:link {
+  text-decoration: none;
+  color: rgb(90,89,89);
+}
+
+li a:visited {
+  text-decoration: none;
+  color: rgb(90,89,89);
+}
+
+li a:hover {
+  text-decoration: none;
+  color: rgb(90,89,89);
+}
+
+li a:active {
+  text-decoration: none;
+  color: rgb(90,89,89);
+}
+
+p {
+  background-color: #FFF;
+}
+
+
+input[type=submit] {
+  width: 26%;
+  min-width: 90px;
+  background-color: teal;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+div.img-center {
+  position: absolute;
+    left: 5%;
+    top: 75%;
+    width: 80%;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: teal;
+    max-width: 100%;
+    height: 17%;
+}
+
